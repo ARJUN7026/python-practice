@@ -1,20 +1,21 @@
 # Python Practice
 
-A collection of beginner Python exercises covering arithmetic, input and output, and Turtle graphics.
+Small, standalone Python exercises for arithmetic, variables, input and output, and Turtle graphics.
 
 ## Programs
 
-- **AI forcalculation.py** — a text-based arithmetic calculator that parses expressions with Python's AST and allows basic arithmetic. It is rule-based and does not use an AI model.
-- **pythoon.py** — a command-line calculator for the four basic operations.
-- **animation of cycle.py** — a Turtle animation of a bicycle.
-- **import turtle.py** and **pythoncode.py** — small Turtle drawing exercises.
-- **python project.py** — a simple addition example.
-- **python.py** and **Untitled-1.py** — basic print and variable exercises.
+- **calculator.py** — command-line calculator for addition, subtraction, multiplication, and division.
+- **expression_calculator.py** — accepts arithmetic expressions and phrases such as “5 plus 8”. It uses Python's AST with an allow-list of operations; it is rule-based and does not use an AI model.
+- **animation of cycle.py** — animated bicycle drawing made with Turtle.
+- **import turtle.py** and **pythoncode.py** — Turtle drawing exercises.
+- **python project.py** — simple addition example.
+- **hello_world.py**, **python.py**, and **variables_example.py** — introductory print and variable examples.
 
 ## Run a program
 
-Each Python file can be run on its own. For example:
+Use Python 3 to run a file from this folder. For example:
 
-    python "pythoon.py"
+    python calculator.py
+    python "animation of cycle.py"
 
-Turtle programs open a graphics window. Some exercises ask for input in the terminal.
+Each file runs independently. Turtle programs open a graphics window; interactive calculators ask for input in the terminal.
